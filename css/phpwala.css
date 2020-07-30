@@ -1,0 +1,143 @@
+.con
+{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-gap: 10px;
+    padding: 10px;
+    height: 500%;
+    width: 100%;
+    
+}
+
+#abc1
+{
+  
+  text-align: center;
+  font-size: 10px;
+  height: 200px;
+  width: 100px;
+  
+}
+
+img
+{
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    
+}
+.carousel,.item,.active{
+    height:100%;
+    width: 100%;
+  }
+ .carousel-inner{
+     height:100%;
+ }
+ body
+{
+    background-color: #555 !important;
+}
+ body,div,ul,li{list-style: none;margin: 0px;padding: 0px;font: 400 15px/1.8 Lato, sans-serif;color: #777;position: relative;}
+ h3, h4 {
+     margin: 10px 0 30px 0;
+     letter-spacing: 10px;      
+     font-size: 20px;
+     color: #111;
+ }
+
+ #container{width:auto; height: auto;}
+
+ .nav-tabs li a {
+     color: #777;
+ } 
+ .navbar {
+     font-family: Montserrat, sans-serif;
+     margin-bottom: 0;
+     background-color: #2d2d30;
+     border: 0;
+     letter-spacing: 4px;
+     opacity: 0.9;
+ }
+ .navbar-brand{
+   color: #d5d5d5 !important;
+   font-size: 20px !important;
+ }
+ .navbar li a, .navbar  { 
+     color: #d5d5d5 !important;
+     font-size: 11px !important;
+ }
+ .navbar-nav li a:hover {
+     color: #fff !important;
+
+ }
+ .navbar-nav li.active a {
+     color: #fff !important;
+     background-color: #29292c !important;
+ }
+ .navbar-default .navbar-toggle {
+     border-color: transparent;
+ }
+ .open .dropdown-toggle {
+     color: #fff;
+     background-color: #555 !important;
+ }
+ .dropdown-menu li a {
+     color: #000 !important;
+ }
+ .dropdown-menu li a:hover {
+     background-color: rgb(51, 47, 47) !important;
+ }
+   
+ .carousel-caption h3 {
+     color: #fff !important;
+ }
+ @media (max-width: 600px) {
+   .carousel-caption {
+     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+   }
+ }
+
+#index1{width: auto; height: 690px; color: #d5d5d5; background-color: #2d2d30;font-family: Montserrat, sans-serif;}
+#index1 h1 {font-size: 40px; text-align: center; padding-top: 18%;letter-spacing: 25px;}
+#index1 .search{width: 90px; height: 30px;color: black;}
+#index1 .searchtext {padding-left: 31%; padding-top:7%;}
+#index1 input {width: 330px; height: 30px;color: black;}
+
+
+
+
+#upcoming{position: relative;width: auto;height: 790px; padding-top: 30px;font-family: Montserrat, sans-serif;}
+#upcoming h1{letter-spacing: 25px;font-size: 40px;text-align: center;text-decoration: none;}
+
+#upcoming a {
+ text-decoration: none;
+ color:#2d2d30;
+}
+
+footer {
+     color: #2d2d30;
+     padding: 32px;
+     margin-top: 10px;
+ }
+ footer a {
+     color: #2d2d30;
+ }
+ footer a:hover {
+     color: #777;
+     text-decoration: none;
+ } 
+
+/* Add a dark gray background color to the modal header and center text */
+.modal-header, h4, .close {
+   background-color: #333;
+   color: #fff !important;
+   text-align: center;
+   font-size: 30px;
+}
+
+.modal-header, .modal-body {
+   padding: 40px 50px;
+}
+
+
